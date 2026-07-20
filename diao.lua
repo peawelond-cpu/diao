@@ -1,6 +1,3 @@
--- ============================================
--- 1. БЕЗОПАСНАЯ ЗАГРУЗКА БИБЛИОТЕКИ
--- ============================================
 local success, Luna = pcall(function()
     local rawCode = game:HttpGet("https://raw.githubusercontent.com/Nebula-Softworks/Luna-Interface-Suite/refs/heads/main/source.lua", true)
     local loadedFunc, err = loadstring(rawCode)
